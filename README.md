@@ -1,2 +1,4 @@
 # amigo
-CLI for Spanish translation and verb conjugation.
+Command line interface for Spanish translation and verb conjugation.
+
+# Usage
