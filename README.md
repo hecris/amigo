@@ -1,5 +1,6 @@
 # amigo
-Command line interface for Spanish translation and verb conjugation.  
+Command Line Interface for Spanish translation and verb conjugation.  
+
 ![alt text](https://github.com/hecris/amigo/blob/master/screenshots/conjugate.gif?raw=true)
 
 # Installation
