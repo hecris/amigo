@@ -1,5 +1,6 @@
 import click
 import requests
+from googletrans import Translator
 from bs4 import BeautifulSoup
 
 @click.group()
@@ -41,4 +42,20 @@ def pretty_table(html):
 		if (i + 1) % n == 0:
 			click.echo(click.style(build, fg=colors[i // n]))
 			build = "|"
-		
+
+@cli.command()
+@click.argument('text', nargs=-1)	
+def translate(text):
+	#join tuple of args coming from command line
+	text = ' '.join(text)
+
+	#new Translator object
+	translator = Translator()
+
+	#detect language and trnaslate to either spanish or english
+	if(translator.detect(text).lang == "en"):
+		translated = translator.translate(text, dest="es")
+	else:
+		translated = translator.translate(text, dest="en")
+
+	click.echo(translated.text)
