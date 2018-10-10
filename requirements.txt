@@ -1,0 +1,8 @@
+-e git+https://github.com/hecris/amigo.git@19d12eeea5901d4fffb74ba0e09ad56a852abba9#egg=amigo
+beautifulsoup4==4.6.3
+certifi==2018.8.24
+chardet==3.0.4
+Click==7.0
+idna==2.7
+requests==2.19.1
+urllib3==1.23
