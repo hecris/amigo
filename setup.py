@@ -7,7 +7,7 @@ setup (
 	install_requires=[
 		"Click",
 		"Requests",
-		"BeautifulSoup4",
+		"BeautifulSoup4"
 		],
 	entry_points="""
 		[console_scripts]
