@@ -5,3 +5,6 @@ coveralls==1.1
 BeautifulSoup
 click==7.0
 googletrans==2.3.0
+gitdb==2-2.0.4 
+gitpython==2.1.11
+smmap2==2.0.4
