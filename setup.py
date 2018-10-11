@@ -8,7 +8,7 @@ setup (
 		"Click",
 		"Requests",
 		"BeautifulSoup4",
-		"git+https://github.com/BoseCorp/py-googletrans.git"
+		"googletrans==2.3.0",
 		],
 	entry_points="""
 		[console_scripts]
