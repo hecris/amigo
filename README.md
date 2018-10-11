@@ -17,7 +17,7 @@ python3 -m virtualenv env
 ```
 3) Install dependencies
 ```
-https://github.com/BoseCorp/py-googletrans.git
+pip install git+https://github.com/BoseCorp/py-googletrans.git
 pip install --editable .
 ```
 
