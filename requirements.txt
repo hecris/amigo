@@ -1,1 +1,8 @@
--e git://github.com/BoseCorp/py-googletrans.git
+-e git://github.com/BoseCorp/py-googletrans.git#egg=py-googletrans
+beautifulsoup4==4.6.3
+certifi==2018.8.24
+chardet==3.0.4
+Click==7.0
+idna==2.7
+requests==2.19.1
+urllib3==1.23
