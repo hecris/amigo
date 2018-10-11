@@ -15,6 +15,3 @@ pip install --editable .
 
 # Usage
 * Conjugate: `amigo conjugate <verb>`
-
-# Contributors
-[Christopher He](https://github.com/hecris)
