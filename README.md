@@ -20,7 +20,7 @@ python3 -m virtualenv env
 pip install git+https://github.com/BoseCorp/py-googletrans.git
 pip install --editable .
 ```
-
+4) You're ready to start using **amigo**
 
 # Usage
 * Conjugate: `amigo conjugate <verb>`
