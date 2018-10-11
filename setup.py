@@ -7,7 +7,8 @@ setup (
 	install_requires=[
 		"Click",
 		"Requests",
-		"BeautifulSoup4"
+		"BeautifulSoup4",
+		"git+https://github.com/BoseCorp/py-googletrans.git"
 		],
 	entry_points="""
 		[console_scripts]
