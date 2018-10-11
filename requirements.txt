@@ -1,0 +1,5 @@
+setuptools==28.8.0
+click==6.7
+requests==2.19.1
+beautifulsoup4==4.6.3
+googletrans==2.3.0
