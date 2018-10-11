@@ -8,7 +8,6 @@ setup (
 		"Click",
 		"Requests",
 		"BeautifulSoup4",
-		"googletrans==2.3.0",
 		],
 	entry_points="""
 		[console_scripts]
