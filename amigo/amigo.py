@@ -58,4 +58,4 @@ def translate(text):
 	else:
 		translated = translator.translate(text, dest="en")
 
-	click.echo(translated.text)
+	click.echo(click.style(translated.text, fg='yellow'))
