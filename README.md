@@ -2,6 +2,7 @@
 Command Line Interface for Spanish translation and verb conjugation.  
 
 ![alt text](https://github.com/hecris/amigo/blob/master/screenshots/conjugate.gif?raw=true)
+![alt text](https://github.com/hecris/amigo/blob/master/screenshots/translate.gif?raw=true)
 
 # Installation
 
@@ -23,4 +24,5 @@ pip install --editable .
 4) You're ready to start using **amigo**
 
 # Usage
+* Translate: `amigo translate <text>`
 * Conjugate: `amigo conjugate <verb>`
