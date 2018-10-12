@@ -11,16 +11,15 @@ Command Line Interface for Spanish translation and verb conjugation.
 git clone https://github.com/hecris/amigo.git
 cd amigo
 ```
-2) Set up virtual environment. (this may vary)
+2) Run the installation script <b>get_started.sh</b>. This will create a virtual environment <b>env</b> and install all the dependencies.
 ```
-python3 -m virtualenv env
-. env/bin/activate
+./get_started.sh
 ```
-3) Install dependencies
+3) Activate the virtual environment
 ```
-pip install git+https://github.com/BoseCorp/py-googletrans.git
-pip install --editable .
+source env/bin/activate
 ```
+
 4) You're ready to start using **amigo**
 
 # Usage
