@@ -24,4 +24,4 @@ source env/bin/activate
 
 # Usage
 * Translate: `amigo translate <text>`
-* Conjugate: `amigo conjugate <verb>`
+* Conjugate: `amigo conjugate <verb> <n>`
