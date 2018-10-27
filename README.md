@@ -24,5 +24,5 @@ pip install --editable .
 4) You're ready to start using **amigo**
 
 # Usage
-* Translate: `amigo translate <text>`
-* Conjugate: `amigo conjugate <verb> <n>`
+* Translate: `amigo trans <text>`
+* Conjugate: `amigo conj <verb> <n>`

@@ -9,7 +9,7 @@ def cli():
     pass
 
 
-@cli.command()
+@cli.command('conj')
 @click.argument('verb')
 @click.argument('n', required=False, default=-1)
 def conjugate(verb, n):
@@ -52,7 +52,7 @@ def pretty_table(html):
             build = "|"
 
 
-@cli.command()
+@cli.command('trans')
 @click.argument('text', nargs=-1)
 def translate(text):
     # join tuple of args coming from command line
