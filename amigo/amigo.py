@@ -52,7 +52,7 @@ def pretty_table(html):
             build = "|"
 
 
-@cli.command('trans')
+@cli.command('tran')
 @click.argument('text', nargs=-1)
 def translate(text):
     # join tuple of args coming from command line
