@@ -1,8 +1,6 @@
 # amigo
 Command Line Interface for Spanish translation and verb conjugation.  
 
-![alt text](https://github.com/hecris/amigo/blob/master/screenshots/conjugate.gif?raw=true)
-![alt text](https://github.com/hecris/amigo/blob/master/screenshots/translate.gif?raw=true)
 ![alt text](https://github.com/hecris/amigo/blob/master/screenshots/quiz.gif?raw=true)
 
 # Installation
@@ -28,3 +26,6 @@ pip install --editable .
 * Translate: `amigo tran <text>`
 * Conjugate: `amigo conj <verb> <n>`
 * Quiz Me: `amigo quiz "word1, word2, word3" # words are separated using commas`
+
+![alt text](https://github.com/hecris/amigo/blob/master/screenshots/conjugate.gif?raw=true)
+![alt text](https://github.com/hecris/amigo/blob/master/screenshots/translate.gif?raw=true)
